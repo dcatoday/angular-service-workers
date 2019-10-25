@@ -26,7 +26,7 @@ export class SwControllerService {
         });
     
     
-        //Subscrive to updates available and updates activated
+        // Subscrive to updates available and updates activated
         this.updates.available.subscribe(event => {
           console.log('current version is', event.current);
           console.log('available version is', event.available);
